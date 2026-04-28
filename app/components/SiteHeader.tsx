@@ -41,8 +41,8 @@ export function SiteHeader() {
               <Link
                 href="/logout"
                 className={cn(
-                  "inline-flex items-center justify-center rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition",
-                  "hover:bg-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400"
+                  "inline-flex items-center justify-center rounded-full bg-slate-500 px-4 py-2 text-sm font-semibold text-white transition",
+                  "hover:bg-slate-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400"
                 )}
               >
                 Logout
@@ -52,8 +52,8 @@ export function SiteHeader() {
             <Link
               href="/signin"
               className={cn(
-                "inline-flex items-center justify-center rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition",
-                "hover:bg-slate-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400"
+                "inline-flex items-center justify-center rounded-full bg-slate-500 px-4 py-2 text-sm font-semibold text-white transition",
+                "hover:bg-slate-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400"
               )}
             >
               Sign In

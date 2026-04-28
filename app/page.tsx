@@ -883,7 +883,7 @@ export default function Home() {
                   href="#"
                   className="flex w-full items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left shadow-sm hover:bg-slate-50"
                 >
-                  <span className="grid h-9 w-9 place-items-center rounded-lg bg-slate-900 text-white">
+                  <span className="grid h-9 w-9 place-items-center rounded-lg bg-slate-500 text-white">
                     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" className="h-5 w-5">
                       <path
                         d="M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"
@@ -912,7 +912,7 @@ export default function Home() {
                   href="#"
                   className="flex w-full items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left shadow-sm hover:bg-slate-50"
                 >
-                  <span className="grid h-9 w-9 place-items-center rounded-lg bg-slate-900 text-white">
+                  <span className="grid h-9 w-9 place-items-center rounded-lg bg-slate-500 text-white">
                     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" className="h-5 w-5">
                       <path
                         d="M16.6 13.3c.1 2.8 2.5 3.7 2.6 3.8-.2.6-1 2.1-2 3.3-.9 1-1.9 2.1-3.4 2.1-1.5 0-2-.8-3.7-.8-1.7 0-2.3.8-3.7.8-1.4 0-2.4-1.2-3.4-2.2-1.9-2.2-3.4-6.2-1.4-9 .9-1.3 2.5-2.2 4.3-2.2 1.4 0 2.7.9 3.6.9.8 0 2.4-1.1 4.1-1 1.4.1 2.8.7 3.7 1.9-3.3 1.8-2.9 5.2-2.7 5.4Z"

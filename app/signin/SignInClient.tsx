@@ -167,7 +167,7 @@ export function SignInClient() {
             <Button
               type="submit"
               disabled={submitting}
-              className="mt-1 rounded-xl bg-slate-900 hover:bg-slate-800 focus-visible:ring-slate-400"
+              className="mt-1 rounded-xl bg-slate-500 hover:bg-slate-600 focus-visible:ring-slate-400"
             >
               {submitting ? "Signing in…" : "Sign in"}
             </Button>

@@ -77,7 +77,7 @@ export default function ProfilePage() {
                 Your account details (frontend template).
               </p>
             </div>
-            <div className="grid h-12 w-12 place-items-center rounded-2xl bg-slate-900 text-white">
+            <div className="grid h-12 w-12 place-items-center rounded-2xl bg-slate-500 text-white">
               <span className="text-lg font-semibold">
                 {user?.name?.slice(0, 1).toUpperCase() ?? "U"}
               </span>
