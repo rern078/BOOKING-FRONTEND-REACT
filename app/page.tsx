@@ -308,7 +308,7 @@ export default function Home() {
     <div className="bg-slate-50 text-slate-900">
       <SiteHeader />
 
-      <main className="mx-auto w-full max-w-7xl px-6 pb-16">
+      <main className="mx-auto w-full max-w-7xl mt-6 px-6 pb-16">
         <section className="rounded-3xl bg-slate-100 px-6 py-10 shadow-sm ring-1 ring-slate-200/60 md:px-10">
           <div className="grid items-center gap-10 lg:grid-cols-[1.25fr_0.75fr]">
             <div>

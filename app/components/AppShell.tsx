@@ -50,7 +50,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen bg-slate-50 text-slate-900">
       {/* desktop sidebar */}
       {!isAuthLayout ? (
-        <aside className="fixed inset-y-0 left-0 hidden w-72 border-r border-slate-200 bg-white md:block">
+        <aside className="fixed inset-y-0 left-0 hidden w-72 overflow-y-auto border-r border-slate-200 bg-white md:block [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           <SidebarContent />
         </aside>
       ) : null}
@@ -101,7 +101,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 <CloseIcon className="text-slate-700" />
               </button>
             </div>
-            <div className="h-[calc(100%-56px)]">
+            <div className="h-[calc(100%-56px)] min-h-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
               <SidebarContent />
             </div>
           </div>
