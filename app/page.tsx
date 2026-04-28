@@ -117,7 +117,7 @@ export default function Home() {
         return "Find the right cruise from 100s of sites.";
       case "stays":
       default:
-        return "Find the right hotel from 100s of sites.";
+        return "Find the right hotel from 200s of sites.";
     }
   }, [activeTab]);
 

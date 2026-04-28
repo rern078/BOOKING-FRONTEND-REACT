@@ -72,7 +72,7 @@ export default function ProfilePage() {
         <Card className="rounded-3xl p-6">
           <div className="flex items-start justify-between gap-4">
             <div className="min-w-0">
-              <h1 className="text-2xl font-bold">Profiles</h1>
+              <h1 className="text-2xl font-bold">Profile</h1>
               <p className="mt-1 text-sm text-slate-600">
                 Your account details (frontend template).
               </p>
